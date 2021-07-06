@@ -1,0 +1,83 @@
+body {
+    display:flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+	
+}
+.selecionadoBanner{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+          
+}
+
+.calculadora-dano {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid #878787;
+    border-radius: 20px;
+    background-color: #F8F8F8;
+}
+
+.linha-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+.elementos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #e4dddd;
+    border-radius: 20px;
+    background-color: #d9e6d9;
+    
+}
+  
+.elemento {
+    cursor: pointer;
+    
+}
+
+.elemento p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#orc:hover{
+        color: crimson;
+}
+#globin:hover{
+    color: crimson;
+}
+#feiticeira:hover{
+    color: crimson;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selecionado {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#dano {
+    font-size: medium;
+    font-weight: bold;
+}
