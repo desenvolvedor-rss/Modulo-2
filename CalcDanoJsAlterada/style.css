@@ -1,0 +1,83 @@
+body {
+	font-family: 'Verdana', sans-serif;
+    color: blanchedalmond;
+    background-color: #4169E1;
+}
+
+.calculadora-dano {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid #fb2d05;
+    border-radius: 20px;
+    background-color: #000000;
+}
+
+.linha-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.elementos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.elemento {
+    cursor: pointer;
+}
+
+.elemento p {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selecionado {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#dano {
+    font-size: medium;
+    font-weight: bold;
+}
+
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+    to   {
+        filter: drop-shadow(0 0 30px var(--cor-neon));
+    }
+}
+
+.linha_neon img{
+    animation: neon 3s alternate infinite ease-in-out;
+}
+
+.linha_neon{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.texto {
+    --cor-neon: #fb2d05;
+   
+}
